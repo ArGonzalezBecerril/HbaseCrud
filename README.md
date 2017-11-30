@@ -1,4 +1,3 @@
-RUD Hbase
 ### Integración de Hbase y Java con Hadoop en modo Pseudodistribuido.
 
 [![N|Solid](https://image.ibb.co/cxcEV6/powered.png)](https://github.com/ArturoGonzalezBecerril)
@@ -9,14 +8,14 @@ RUD Hbase
   - Hbase 1.1.12 (Se integra con Hadoop ya que para arrancar Hbase es nesesario tener una ruta HDFS donde se almacenan los metadatos del mismo)
   - Maven (Versión actual)
 
-# La estructura del Proyecto queda definida de las siguente manera.
+# La estructura del Proyecto queda definida de las siguiente manera.
 [![N|Solid](https://image.ibb.co/jOyKf6/crud_Estructurahbase.png)](https://github.com/ArturoGonzalezBecerril)
 
 Definiciónes:
   - **Hadoop** : Herramienta de big data dividido en 2 partes(Datos y procesos)
   - **Hbase** : Motor de almacenamiento distribuido, orientado a columnas.
   - **Java** : Lenguaje de programación de proposito general para crear programas.
- 
+
 ### Creando el proyecto con maven
 ```sh
 arturo@arturo$ mvn archetype:generate -DgroupId=com.hbase.app -DartifactId=hbaseCrud -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
@@ -27,7 +26,7 @@ drwxr-xr-x 3 bashroot bashroot 4.0K nov 25 09:21 hbaseCrud
 arturo@arturo$ cd hbaseCrud
 ```
 
-### Agregamos las dependencias al pom, quendando de la siguiente manera.
+### Agregamos las dependencias al POM, quedando de la siguiente manera.
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -354,5 +353,3 @@ Licencia
 ----
 GNU
 ** Software Libre,  Yeah!**
-
-
